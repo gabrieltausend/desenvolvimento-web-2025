@@ -29,7 +29,7 @@
 //
 // -----------------------------------------------------------------------------
 import { Router } from "express";
-import { pool } from "../db.js";
+import { pool } from "../database/db.js";
 
 const router = Router(); 
 // Criamos um Router. No app principal, algo como:
